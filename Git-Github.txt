@@ -1,0 +1,46 @@
+//////////////////////////////////////////////////////////////////////
+git config --global user.name "?"        (Used to  )
+git config --global user.email "?@123.com"(Used to  )
+git config --list                        (Used to  )
+/////////////////////////////////////////////////////////////////////////
+git init                                 (Used to initialize the dir with git or connect)
+git add --a  OR git add .                (Used to add dir to staging area)
+git commit -m "----"                     (Used to commit)
+/////////////////////////////////////////////////////////////////////////
+git status                               (Used to chk dir stsatus)
+//////////////////////////////////////////////////////////////////
+git log                                  (Used to see all commits)
+git log -p                               (Used to see all commits and what commited)
+git log -p -2(or any no.)                (Used to see only 2 commits and what commited)
+/////////////////////////////////////////////////////////////////////////
+touch filename                           (Used to   )
+/////////////////////////////////////////////////////////////////////////
+git add filename                         (Used to add file to stage area)
+git restore --staged filename            (Used to back file from stage area to unmodified)
+/////////////////////////////////////////////////////////////////////////
+pwd                                      (Used to see present dir)
+ls                                       (Used to list of files or folders in a dir)
+cd folder                                (Used to   )
+/////////////////////////////////////////////////////////////////////////
+git clone URL (?folder name opt)         (Used to copy the reop in our comp)
+git log --stat                           (Used to   )
+git log --pretty=oneline                 (Used to   )
+git log --pretty=short                   (Used to show commit & message and author)
+git log --pretty=full                    (Used to show commit & message and author and 1 line)
+git log --since=2.(days,years,week etc)  (Used to show commit details with with specific time)
+git clear                                (Used to claer the terminal)
+/////////////////////////////////////////////////////////////////////////
+git diff                                 (Used to   )
+git diff --staged                        (Used to   )
+/////////////////////////////////////////////////////////////////////////
+git rm -rf --cached .                    (Used to   )
+git rm --cached filename                 (Used to   )
+git rm filename                          (Used to   )
+rm-rf .git                               (used to removed repo from git )
+/////////////////////////////////////////////////////////////////////////
+git mv filename                          (used to change name of file)
+/////////////////////////////////////////////////////////////////////////
+git commit --amend                       (used to change do commit and keep the origional author merge the commit with author commit)
+/////////////////////////////////////////////////////////////////////////
+git chechout -- filename                 (used to change revert the file back to previous commit)
+git chechout -- f                        (used to change revert all file back to previous commit)
