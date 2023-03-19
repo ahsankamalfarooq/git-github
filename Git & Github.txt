@@ -34,7 +34,7 @@ git clear                                (Used to claer the terminal)
 git diff                                 (Used to   )
 git diff --staged                        (Used to   )
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-git rm -rf --cached .                    (Used to   )
+git rm -rf --cached .                    (Used to   ) 
 git rm --cached filename                 (Used to   )
 git rm filename                          (Used to   )
 rm-rf .git                               (used to removed repo from git )
