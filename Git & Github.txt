@@ -61,3 +61,5 @@ git branch                               (used to chk for branch)
 git push -u origin (branch name)         (used to push the code on github)
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 git show-ref                             (used to get info about the remote and branch)
+git checkout (branch name)               (used to move into another branch)
+git chechout -b (branch name)            (used to create and move into that branch)
