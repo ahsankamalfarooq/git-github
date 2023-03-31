@@ -6,12 +6,6 @@ git config --global user.name "?"        (Used to  )
 git config --global user.email "?@123.com"(Used to  )
 git config --list                        (Used to  )
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-git init                                 (Used to initialize the dir with git or connect)
-git add --a  OR git add .                (Used to add dir to staging area)
-git commit -m "----"                     (Used to commit)
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-git status                               (Used to chk dir stsatus)
-////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 git log                                  (Used to see all commits)
 git log -p                               (Used to see all commits and what commited)
 git log -p -2(or any no.)                (Used to see only 2 commits and what commited)
@@ -45,8 +39,8 @@ git mv filename                          (used to change name of file)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 git commit --amend                       (used to change do commit and keep the origional author merge the commit with author commit)
 /////////////////////////////////////////////////////////////////////////
-git chechout -- filename                 (used to change revert the file back to previous commit)
-git chechout -- f                        (used to change revert all file back to previous commit)
+git checkhout -- filename                 (used to change revert the file back to previous commit)
+git checkhout -- f                        (used to change revert all file back to previous commit)
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 git remote add origin (url copied from github) (used to change create remote or add url in remote)
 git remote -v                            (used to get url where to fetch or push repo)
