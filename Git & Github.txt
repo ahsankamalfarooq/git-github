@@ -1,0 +1,59 @@
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git config --global alias.(abbrev eg st) (command name eg status)
+git config --global alias.unstage 'restore --staged --' 
+(used as we only have to write unstage and it will remove file from stage area like whole cmd)
+git config --global user.name "?"        (Used to  )
+git config --global user.email "?@123.com"(Used to  )
+git config --list                        (Used to  )
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git log                                  (Used to see all commits)
+git log -p                               (Used to see all commits and what commited)
+git log -p -2(or any no.)                (Used to see only 2 commits and what commited)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+touch filename                           (Used to   )
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git add filename                         (Used to add file to stage area)
+git restore --staged filename            (Used to back file from stage area to unmodified)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+pwd                                      (Used to see present dir)
+ls                                       (Used to list of files or folders in a dir)
+cd folder                                (Used to   )
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git clone URL (?folder name opt)         (Used to copy the reop in our comp)
+git log --stat                           (Used to   )
+git log --pretty=oneline                 (Used to   )
+git log --pretty=short                   (Used to show commit & message and author)
+git log --pretty=full                    (Used to show commit & message and author and 1 line)
+git log --since=2.(days,years,week etc)  (Used to show commit details with with specific time)
+git clear                                (Used to claer the terminal)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git diff                                 (Used to   )
+git diff --staged                        (Used to   )
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git rm -rf --cached .                    (Used to   ) 
+git rm --cached filename                 (Used to   )
+git rm filename                          (Used to   )
+rm -rf .git                               (used to removed repo from git )
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git mv filename                          (used to change name of file)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git commit --amend                       (used to change do commit and keep the origional author merge the commit with author commit)
+/////////////////////////////////////////////////////////////////////////
+git checkhout -- filename                 (used to change revert the file back to previous commit)
+git checkhout -- f                        (used to change revert all file back to previous commit)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git remote add origin (url copied from github) (used to change create remote or add url in remote)
+git remote -v                            (used to get url where to fetch or push repo)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ssh-keygen -t ed25519 -C (email)         (used as 1st command for gen ssh key)
+eval "$(ssh-agent -s)"                   (used as 1st command for gen ssh key//)
+ssh-add ~/.ssh/id_ed25519                (used as 1st command for gen ssh key//)
+tail ~/.ssh/id_ed25519.pub               (used as this will generate ssh which then put in github)
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git branch -M main                       (used to generate branch or repo)
+git branch                               (used to chk for branch)
+git push -u origin (branch name)         (used to push the code on github)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+git show-ref                             (used to get info about the remote and branch)
+git checkout (branch name)               (used to move into another branch)
+git chechout -b (branch name)            (used to create and move into that branch)
